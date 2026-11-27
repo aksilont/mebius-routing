@@ -1,0 +1,61 @@
+{
+  "Name": "Routing",
+  "GlobalProxy": "false",
+  "UseChunkFiles": "true",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
+  "LastUpdated": "1795726620",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"    
+  },
+  "ProxySites": [
+    "geosite:anthropic",
+    "geosite:meta",
+    "geosite:telegram",
+    "geosite:whatsapp",
+    "geosite:threads",
+    "geosite:instagram",
+    "geosite:openai",
+    "geosite:facebook",
+    "geosite:facebook-dev",
+    "geosite:category-speedtest",
+    "geosite:ookla-speedtest",
+    "geosite:twitter",
+    "geosite:x",
+    "geosite:instagram",
+    "geosite:threads",
+    "geosite:medium",
+    "geosite:youtube",
+    "geosite:tiktok",
+    "regexp:.*forum.ru-board.*",
+    "regexp:.*sal-emea.*\\.com$",
+    "rutracker.org"
+  ],
+  "ProxyIp": [
+    "geoip:ru-blocked",
+    "geoip:ru-blocked-community"
+  ],
+  "DirectSites": [],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "169.254.0.0/16",
+    "224.0.0.0/4",
+    "255.255.255.255"
+  ],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
