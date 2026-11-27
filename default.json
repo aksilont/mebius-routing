@@ -13,7 +13,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
   "Geositeurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
-  "LastUpdated": "1795761780",
+  "LastUpdated": "1795768994",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"    
@@ -46,7 +46,10 @@
     "geoip:ru-blocked-community"
   ],
   "DirectSites": [
-    "geosite:ru-available-only-inside"
+    "domain:ru",
+    "domain:su",
+    "domain:xn--p1ai",
+    "geosite:category-ru"
   ],
   "DirectIp": [
     "10.0.0.0/8",
@@ -55,7 +58,8 @@
     "169.254.0.0/16",
     "224.0.0.0/4",
     "255.255.255.255",
-    "geoip:ru-whitelist"
+    "geoip:ru-whitelist",
+    "geoip:ru"
   ],
   "BlockSites": [],
   "BlockIp": [],
